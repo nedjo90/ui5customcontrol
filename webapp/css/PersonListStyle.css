@@ -1,0 +1,35 @@
+/* Enter your custom styles here */
+@import "./../resources/sap/ui/core/themes/sap_horizon/library.css";
+
+.myPersonListItem li {
+    display: inline;
+    width: 100%;
+}
+
+.myPersonListItem {
+    padding: 10px;
+    color: black;
+    width: 100%;
+    overflow: hidden;
+}
+
+.myPersonList ul {
+    list-style: none;
+}
+
+.myPersonListItemSelector:nth-last-of-type(odd) {
+    background-color: #e3e3e3;
+}
+
+.myPersonList {
+    width: 100%;
+    margin: 15px;
+}
+
+.sapInfo {
+    color: var(--sapField_InvalidColor);
+}
+
+.sapDanger {
+    color: var(--sapField_RequiredColor);
+}
